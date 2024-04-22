@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class FingerPrintEntity {
+public class FingerPrintController {
 
     @PostMapping("/new")
     public ResponseEntity<Boolean> create(@RequestBody FingerPrintDto fingerPrintDto) {
